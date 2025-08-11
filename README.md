@@ -17,7 +17,7 @@ A Go program that retrieves accurate current time using NTP (Network Time Protoc
 ## Installation
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/secretanry/ntpTime.git
 cd ntpTime
 go mod download
 ```
@@ -26,12 +26,12 @@ go mod download
 
 ### Run the program
 ```bash
-go run main.go
+make run
 ```
 
 ### Build and run
 ```bash
-go build -o ntpTime .
+make build
 ./ntpTime
 ```
 
